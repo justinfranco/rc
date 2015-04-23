@@ -1,0 +1,2 @@
+# rc
+Linux rc files
