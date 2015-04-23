@@ -7,12 +7,10 @@ set expandtab       " tabs are spaces
 "UI Configuration
 set number              " show line numbers
 set wildmenu            " visual autocomplete for command menu
+autocmd BufEnter *.adoc setlocal spell spelllang=en_us "Enables spell check for adoc files
 "Searching
 set showmatch           " highlight matching [{()}]
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
-"Movement
-nnoremap j gj           " move vertically by visual line
-nnoremap k gk           " move vertically by visual line
-nnoremap B ^            " move to beginning of line
-nnoremap E $            " move to end of line
+"Clipboard
+set clipboard+=unnamed
