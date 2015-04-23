@@ -1,4 +1,4 @@
-"Colors
+"Colors 
 syntax enable           " enable syntax processing
 "Tabs and Spaces
 set tabstop=3       " number of visual spaces per TAB
@@ -14,3 +14,7 @@ set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 "Clipboard
 set clipboard+=unnamed
+"Misc
+set modeline
+set modelines=1
+" vim:set foldmethod=marker: set foldlevel=0:set foldenable
