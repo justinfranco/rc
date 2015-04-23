@@ -13,8 +13,8 @@ set showmatch           " highlight matching [{()}]
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 "Clipboard
-set clipboard+=unnamed
+set clipboard+=unnamed  "Use the system clipboard
 "Misc
-set modeline
-set modelines=1
+set modeline      "Enable modeline
+set modelines=1   "Checks the bottom line of file for modeline
 " vim:set foldmethod=marker: set foldlevel=0:set foldenable
