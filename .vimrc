@@ -8,9 +8,11 @@ set expandtab       " tabs are spaces
 set number              " show line numbers
 set wildmenu            " visual autocomplete for command menu
 autocmd BufEnter *.adoc setlocal spell spelllang=en_us "Enables spell check for adoc files
+autocmd BufEnter *.asciidoc setlocal spell spelllang=en_us "Enables spell check for adoc files
 "Searching
 set showmatch           " highlight matching [{()}]
 set incsearch           " search as characters are entered
+set smartcase           " Igonore case sentivity unless a CAPS character is used
 set hlsearch            " highlight matches
 "Clipboard
 set clipboard+=unnamed  "Use the system clipboard
