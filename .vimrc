@@ -12,7 +12,8 @@ autocmd BufEnter *.asciidoc setlocal spell spelllang=en_us "Enables spell check 
 "Searching
 set showmatch           " highlight matching [{()}]
 set incsearch           " search as characters are entered
-set smartcase           " Igonore case sentivity unless a CAPS character is used
+set ignorecase          " Igonore case sentivity
+set smartcase           " Use case if CAPS character is used
 set hlsearch            " highlight matches
 "Clipboard
 set clipboard+=unnamed  "Use the system clipboard
